@@ -27,7 +27,7 @@ type SolarTermType = [
 /**
  * 节气
  */
-const solarTerm: SolarTermType = [
+export const solarTerm: SolarTermType = [
   "\u5c0f\u5bd2",
   "\u5927\u5bd2",
   "\u7acb\u6625",
@@ -57,7 +57,7 @@ const solarTerm: SolarTermType = [
 /**
  * 节气查询 1900 - 2100
  */
-const termInfo = [
+export const termInfo = [
   "9778397bd097c36b0b6fc9274c91aa",
   "97b6b97bd19801ec9210c965cc920e",
   "97bcf97c3598082c95f8c965cc920f",
@@ -260,4 +260,4 @@ const termInfo = [
   "7f07e7f0e47f531b0723b0b6fb0721",
   "7f0e27f1487f531b0b0bb0b6fb0722"
 ];
-export default solarTerm;
+export default { solarTerm, termInfo };

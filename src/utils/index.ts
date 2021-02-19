@@ -20,7 +20,7 @@ export class Demo {
   hello() {
     console.log("123");
   }
-  test: string = "abc";
+  test = "abc";
 }
 /**
  * 计算农历的闰月

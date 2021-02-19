@@ -29,6 +29,6 @@ const Zhi: ZhiType = [
   "\u7533",
   "\u9149",
   "\u620c",
-  "\u4ea5",
+  "\u4ea5"
 ];
 export default Zhi;

@@ -1,15 +1,4 @@
-type GanType = [
-  "\u7532",
-  "\u4e59",
-  "\u4e19",
-  "\u4e01",
-  "\u620a",
-  "\u5df1",
-  "\u5e9a",
-  "\u8f9b",
-  "\u58ec",
-  "\u7678"
-];
+type GanType = ["\u7532", "\u4e59", "\u4e19", "\u4e01", "\u620a", "\u5df1", "\u5e9a", "\u8f9b", "\u58ec", "\u7678"];
 /**
  * 天干速查表
  * @type GanType
@@ -25,7 +14,7 @@ const Gan: GanType = [
   "\u5e9a",
   "\u8f9b",
   "\u58ec",
-  "\u7678",
+  "\u7678"
 ];
 
 export default Gan;
